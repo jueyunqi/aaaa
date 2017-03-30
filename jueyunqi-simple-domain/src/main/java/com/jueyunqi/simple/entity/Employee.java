@@ -21,6 +21,10 @@ public class Employee extends AbstractEntity{
 	public void setPasswd(String passwd) {
 		this.passwd = passwd;
 	}
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", passwd=" + passwd +",id="+getId()+ "]";
+	}
 	
 	
 }
